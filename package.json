@@ -1,0 +1,14 @@
+{
+  "name": "cryptosurvey",
+  "version": "1.0.0",
+  "description": "Survey Tool created by Crypto Crest Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Crypto Crest Team",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^17.0.1"
+  }
+}
