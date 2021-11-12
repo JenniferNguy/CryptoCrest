@@ -18,6 +18,7 @@ export class CreateSurveyComponent implements OnInit {
   ]);
 
   IsForUpdate: boolean = false;  
+  IsForAdd: boolean = true;  
   model:any={};
   msg:any="";
   
@@ -43,6 +44,7 @@ export class CreateSurveyComponent implements OnInit {
   myValue: any;
   editItem(i: number, newItem: string, newDes: string, questions: string){
     this.IsForUpdate = true;
+    this.IsForAdd = false;
     this.model.name = newItem;
     this.model.description =newDes;
     this.model.questions = questions;
